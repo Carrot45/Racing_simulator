@@ -8,8 +8,7 @@ namespace Transport_lib
     }
     double Flying_carpet::find_time() const
     {
-        double initial_speed = 10.0;
-        double reduction_percent;
+        double reduction_percent{};
 
         if (way < 1000)
             reduction_percent = 0.0;
@@ -20,6 +19,6 @@ namespace Transport_lib
         else
             reduction_percent = 0.05;
 
-        return ((way * (1 - reduction_percent)) / initial_speed);
+        return ((way * (1 - reduction_percent)) / 10.0);
     }
 }

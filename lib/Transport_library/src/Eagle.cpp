@@ -7,13 +7,10 @@ namespace Transport_lib
         : Air(way) {
     }
     double Eagle::find_time() const
-    {
-        double initial_speed = 8.0; 
-        double reduction_percent = 0.06; 
-
-        double reduced_distance = way * (1 - reduction_percent);
+    {        
+        double reduced_distance = way * 0.94;
                 
-        double time = reduced_distance / initial_speed;
+        double time = reduced_distance / 8.0;
 
         return time;
     }
