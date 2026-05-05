@@ -1,0 +1,73 @@
+# Compiled Object Files
+**/.DS_Store
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran Files
+*.mod
+*.smod
+
+# Static Libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+**/cmake-build-debug/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CMakeFiles/
+**/CTestTestfile.cmake
+**/Makefile
+**/*.cbp
+**/CMakeScripts
+**/compile_commands.json
+
+# CLion / IntelliJ
+.idea/*.xml
+*.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.filters
+*.vcxproj.user
+
+# VS Code
+.vscode/
+
+# Игнорировать все папки сборки
+build/
+out/
+
+# Игнорировать конкретные файлы в папках
+include/**/*.o
+include/**/*.obj
+include/**/*.exe
+
+# Test Outputs
+test/test_runner
+test/test_results/
+**/*_test
+
+# Игнорировать всё в include/divisible/ (если это сгенерированные файлы)
+include/divisible/
