@@ -7,23 +7,9 @@
 #include <algorithm>
 #include "Transport_library.h"
 #include "Race_library.h"
-
-//#include "Transport.h"
-//#include "Air.h"
-//#include "Ground.h"
-//#include "Broom.h"
-//#include "Camel.h"
-//#include "Centaur.h"
-//#include "Eagle.h"
-//#include "Off_road_boots.h"
-//#include "Swift_Camel.h"
-//#include "Flying_carpet.h"
-//#include "Export.h"
-
 #include "Ground_Racing.h"
 #include "Air_Racing.h"
 #include "Air_and_ground_racing.h"
-//#include "Export_race.h"
 
 namespace Consts
 {
